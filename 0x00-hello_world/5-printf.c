@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
-* Description: main - The main function prints a string to the std output stream
+* Description: main - The main function prints a string to the std out
 *Return: returns 0 when printed succesfully
 */
 int main(void)
