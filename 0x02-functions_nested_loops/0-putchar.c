@@ -12,6 +12,8 @@ int main(void)
   int chr;
 
   for(chr = 0; chr<8; ++chr)
-    _putchar(string[chr]
+    _putchar(string[chr]);
   _putchar('\n');
+
+  return (0);
 }
