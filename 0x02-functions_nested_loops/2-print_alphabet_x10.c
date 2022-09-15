@@ -1,15 +1,16 @@
 #include "main.h"
 /**
- *Description: print_alphabet_x10 prints to the stdout 
+ *Description: print_alphabet_x10 - prints to the stdout 
  *the first 10 English alphabet
  */
 void print_alphabet_x10(void)
 {
-  int chr;
+  int iter, chr;
 
-  for(chr='a' ; chr < 10 ; ++chr)
-    {
-      _putchar(chr);
-    }
-  _putchar('/n');
+for (iter = 0 ; iter < 10 ; iter++)
+{
+for (chr = 'a' ; chr<='z' ; ++chr)
+_putchar(chr);
+}
+_putchar('\n');
 }
