@@ -11,6 +11,7 @@ for (iter = 0 ; iter < 10 ; iter++)
 {
 for (chr = 'a' ; chr<='z' ; ++chr)
 _putchar(chr);
+ _putchar('\n');
 }
-_putchar('\n');
+
 }
