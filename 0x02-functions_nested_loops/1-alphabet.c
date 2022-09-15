@@ -13,5 +13,5 @@ for (chr='a' ; chr<='z' ; ++chr)
 {
 _putchar(chr);
 }
- _putchar("/n");
+ _putchar('\n');
 }
