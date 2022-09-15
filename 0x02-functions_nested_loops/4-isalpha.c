@@ -10,10 +10,11 @@ int _isalpha(int c)
 {
 int alphBool = isalpha(c);
 
-if( alphBool > 0)
+if (alphBool > 0)
 {
 return (1);
-}else
+}
+else
 {
 return (0);
 }
