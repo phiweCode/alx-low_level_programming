@@ -1,4 +1,5 @@
 #include "main.h"
+#include <ctype.h>
 
 /**
  * Description: _isdigit - checks if an input is a digit
@@ -8,8 +9,7 @@
 
 int _isdigit(int c)
 {
-if (c == 0 || c == 1 || c == 2 || c == 3 || c == 4
-|| c == 5 || c == 6 || c == 7 || c == 8 || c == 9)
+if (isdigit(c))
 {
 return (1);
 }
