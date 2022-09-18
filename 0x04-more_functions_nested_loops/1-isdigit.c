@@ -1,0 +1,17 @@
+#include "main.h"
+
+/**
+ * Description: _isdigit - checks if an input is a digit
+ * @c: is the inpunt argument
+ * Return: returns 1 if c is digit and 0 otherwise
+ */
+
+int _isdigit(int c)
+{
+if (c == 0 || c == 1 || c == 2 || c == 3 || c == 4
+|| c == 5 || c == 6 || c == 7 || c == 8 || c == 9)
+{
+return (1);
+}
+return (0);
+}
