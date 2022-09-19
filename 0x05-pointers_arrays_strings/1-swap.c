@@ -14,8 +14,9 @@ int temp2;
 temp1 = 0;
 temp2 = 0;
 
-*a = temp1;
-*b = temp2;
+temp1 = *a;
+temp2 = *b;
+
 *b = temp1;
 *a = temp2;
 }
