@@ -1,5 +1,5 @@
-#including "main.h"
-#including <string.h>
+#include "main.h"
+#include <string.h>
 
 /**
  * Description: strncat - concatinates two strings of specified length
@@ -10,5 +10,5 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-return (strncat(dest,src,n))
+return (strncat(dest,src,n));
 }
