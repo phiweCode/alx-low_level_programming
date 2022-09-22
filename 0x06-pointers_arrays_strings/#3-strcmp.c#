@@ -1,0 +1,14 @@
+#include "main.h"
+#include <string.h>
+
+/**
+ * Description: strcmp - compares 
+ *
+ *
+ *
+ */
+
+int _strcmp(char *s1, char *s2)
+{
+
+}
