@@ -5,9 +5,10 @@
 
 /* betty style doc for function main goes there */
 /*
-*main: This program checks whether a number
+*main - This program checks whether a number
 *is positive or negative and prints out the
 *the results thereafter returns 0
+*Return - always return 0
 */
 int main(void)
 {
