@@ -5,7 +5,7 @@
 
 /* betty style doc for function main goes there */
 /*
-*Description: This program checks whether a number
+*main: This program checks whether a number
 *is positive or negative and prints out the
 *the results thereafter returns 0
 */
