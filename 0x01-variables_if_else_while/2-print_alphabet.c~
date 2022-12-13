@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+char alph;
+char i;
+
+alph = 'a';
+ 
+for(i =alph ; i <='z' ; i++)
+{
+putchar(i);
+}
+
+putchar('\n');
+
+return (0);
+}
