@@ -16,7 +16,7 @@ int lastDigit;
 
 lastDigit = _abs(n % 10);
 
-_putchar('0' + lastDigit)
+_putchar('0' + lastDigit);
 
 return (lastDigit);
 
