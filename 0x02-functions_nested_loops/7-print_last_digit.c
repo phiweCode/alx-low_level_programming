@@ -1,4 +1,5 @@
 
+
 #include"main.h"
 
 /**
@@ -16,6 +17,8 @@ int lastDigit;
 
 lastDigit = n % 10;
 
+_putchar(lastDigit);
+ 
 return (lastDigit);
 
 }
