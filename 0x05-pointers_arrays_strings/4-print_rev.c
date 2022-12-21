@@ -6,12 +6,12 @@
  * @s: is the input char pointer parameter
  */
 
-void print_rev()
+void print_rev(char *s)
 {
-char *s = "siphi"; 
+
 int i;
 
-for (i = strlen(s); i >= 0; i--)
+for (i = strlen(s)- 1 ; i >= 0; i--)
 {
 _putchar(*(s + 1));
 }
