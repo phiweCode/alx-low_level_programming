@@ -6,13 +6,14 @@
  * @s: is the input char pointer parameter
  */
 
-void print_rev(char *s)
+void print_rev()
 {
+char *s = "siphi"; 
 int i;
 
-for (i = strlen(s); *(s + i) >= *s; i--)
+for (i = strlen(s); i >= 0; i--)
 {
 _putchar(*(s + 1));
 }
-
+_putchar('\n');
 }
