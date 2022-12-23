@@ -13,7 +13,26 @@
 
 int _strcmp(char *s1, char *s2)
 {
-  int result = strcmp(s1,s2);
-  return (result); 
- 
+  int i;
+  int index;
+
+  for (i = 0; i != '\0'; i++)
+  {
+  if (s1[i] - s2[i] == 0)
+  {
+
+  index = i; 
+
+  }
+  else
+  {
+  break; 
+  }
+  
+  }
+
+  return (s1[index] - s2[index]); 
 }
+
+
+
