@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
 
 /**
  * string_toupper - converts lowercase
@@ -15,10 +16,13 @@ int ind;
 
 for (ind = 0; ind != '\0'; ind++)
 {
-if (s[ind] >= 'a' && s[ind] <= 'z')
-{
-s[ind] -= 32;
+
+printf("This is char s before %c", s[ind]); 
+  
+s[ind] = toupper(s[ind]);
+
+printf("This is char s after %c", s[ind]);
 }
-}
+ 
 return (s);
 }
