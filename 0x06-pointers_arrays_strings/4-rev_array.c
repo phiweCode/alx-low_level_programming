@@ -9,11 +9,17 @@
 
 void reverse_array(int *a, int n)
 {
-int ind;
 
-for (ind = n - 1; ind >= 0; ind--)
+int ind;
+int temp;
+
+for (ind = 0; ind < n / 2; ind++)
 {
-_putchar(a[ind]);
+
+temp = a[ind];
+a[ind] = a[n - ind - 1];
+a[n - ind - 1] = temp;
+
 }
 
 }
