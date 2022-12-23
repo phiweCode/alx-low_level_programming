@@ -1,15 +1,15 @@
 #include "main.h"
 #include <stdio.h>
-#include <string>
+#include <string.h>
 
 /**
  * string_toupper - converts lowercase
- * to upper 
+ * to upper
  * @s: string
  * return: returns uppercase string
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
 int ind;
 
@@ -20,5 +20,5 @@ if (s[ind] >= 'a' && s[ind] <= 'z')
 s[ind] -= 32;
 }
 }
- return (s);
+return (s);
 }
