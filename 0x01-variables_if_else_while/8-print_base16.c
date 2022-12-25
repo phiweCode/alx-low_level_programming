@@ -11,7 +11,7 @@ int main(void)
 char i;
 int numbers;
 
-for(numbers = 0; numbers < 10; numbers++)
+for (numbers = 0; numbers < 10; numbers++)
 {
 putchar((char)numbers + '0');
 }
