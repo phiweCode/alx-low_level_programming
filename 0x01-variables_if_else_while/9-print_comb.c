@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints out a comma 
+ * main - prints out a comma
  * separared list of integers
  * Return: returns 0 upon success
  */
@@ -24,6 +24,6 @@ putchar(' ');
 
 }
 putchar('\n');
-return (0); 
- 
+return (0);
+
 }
