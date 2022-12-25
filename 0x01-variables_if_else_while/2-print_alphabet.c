@@ -9,12 +9,9 @@
 
 int main()
 {
-char alph;
 char i;
 
-alph = 'a';
-
-for(i =alph ; i <='z' ; i++)
+for(i = 'a'; i <='z'; i++)
 {
 putchar(i);
 }
