@@ -35,8 +35,3 @@ putchar('\n');
 }
 putchar('\n');
 }
-
-int main(void)
-{
-jack_bauer();
-}
