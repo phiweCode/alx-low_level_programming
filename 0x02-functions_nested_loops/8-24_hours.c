@@ -16,7 +16,11 @@ for (hourSD = 0; hourSD < 3; hourSD++)
 {
 for (hourFD = 0; hourFD < 10; hourFD++)
 {
-if (hourSD <= 2 && hourFD <= 3)
+if (hourSD >= 2 && hourFD > 3 && min > 5 && sec > 9)
+{
+break;
+}
+else
 {
 for (min = 0; min < 6; min++)
 {
@@ -35,3 +39,4 @@ putchar('\n');
 }
 putchar('\n');
 }
+
