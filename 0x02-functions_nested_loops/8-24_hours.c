@@ -37,6 +37,5 @@ putchar('\n');
 }
 }
 }
-putchar('\n');
 }
 
