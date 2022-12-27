@@ -25,7 +25,7 @@ for (i = 10; i <= 14; i++)
 _putchar(i / 10 + '0');
 _putchar(i % 10 + '0');
 }
-putchar('\n');
+_putchar('\n');
 count ++;
 }
 }
