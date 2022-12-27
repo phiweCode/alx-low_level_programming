@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_diagonal - prints 
- * diagonal line 
- * @n: length of diagonal 
+ * print_diagonal - prints
+ * diagonal line
+ * @n: length of diagonal
  */
 
 void print_diagonal(int n)
@@ -11,13 +11,14 @@ void print_diagonal(int n)
 
 int i;
 int temp;
-  
+
 if (n > 0)
 {
 for (i = 0; i < n; i++)
 {
 temp = 0;
-while(temp < i)
+
+while (temp < i)
 {
 _putchar(' ');
 temp++;
@@ -25,6 +26,10 @@ temp++;
 _putchar('\\');
 _putchar('\n');
 }
-}  
+}
+else
+{
+_putchar('\n');
 }
 
+}
