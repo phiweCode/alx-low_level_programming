@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h> 
 
 /**
  * main - this is a fizzbuzz 
@@ -19,34 +19,34 @@ if(i % 3 == 0 && i % 5 == 0)
 {
 for(iter = 0; fizzBuzz[iter] != '\0'; iter++)
 {
-_putchar(fizzBuzz[iter]);
+putchar(fizzBuzz[iter]);
 }
-_putchar(' ');
+putchar(' ');
 }
 else if (i % 3 == 0)
 {
 for(iter = 0; fizz[iter] != '\0'; iter++)
 {
-_putchar(fizz[iter]);
+putchar(fizz[iter]);
 }
-_putchar(' '); 
+putchar(' '); 
 }
 else if(i % 5 == 0)
 {
 for(iter = 0; buzz[iter] != '\0'; iter++)
 {
-_putchar(buzz[iter]);
+putchar(buzz[iter]);
 }
-_putchar(' ');	    
+putchar(' ');	    
 }
 else
 {
 if(i / 10 > 0)
 {
-_putchar(i / 10 + '0');
+putchar(i / 10 + '0');
 }
-_putchar(i % 10 + '0');
-_putchar(' ');
+putchar(i % 10 + '0');
+putchar(' ');
 }
 } 
 }
