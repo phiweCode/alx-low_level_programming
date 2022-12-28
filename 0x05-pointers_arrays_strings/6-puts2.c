@@ -5,7 +5,7 @@
 /**
  * puts2 - prints every other
  * char of string
- * @atr: string to be printed
+ * @str: string to be printed
  */
 
 void puts2(char *str)
