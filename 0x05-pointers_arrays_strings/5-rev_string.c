@@ -2,7 +2,7 @@
 #include "2-strlen.c"
 
 /**
- * rev_string - reverses a string 
+ * rev_string - reverses a string
  * @s: string to be reversed
  */
 
@@ -16,6 +16,6 @@ for (iter = 0; iter <  _strlen(s) / 2; iter++)
 {
 temp = s[iter];
 s[iter] = s[_strlen(s) - iter - 1];
-s[_strlen(s) - iter - 1] = temp; 
-} 
+s[_strlen(s) - iter - 1] = temp;
+}
 }
