@@ -13,9 +13,9 @@ int col;
 
 if (size > 0)
 {
-for (row = 0; row < size ; row++)
+for (row = 0; row < size; row++)
 {
-for (col = 0; col < size - row; col++)
+for (col = 0; col < size - row - 1; col++)
 {
 _putchar(' ');
 }
@@ -31,3 +31,4 @@ else
 _putchar('\n');
 }
 }
+
