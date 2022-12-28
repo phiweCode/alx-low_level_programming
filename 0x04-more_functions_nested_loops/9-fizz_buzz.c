@@ -4,7 +4,7 @@
  * main - this is a fizzbuzz 
  */
 
-void fizzBuzz(void)
+int main(void)
 {
 
 int i;
@@ -48,5 +48,7 @@ putchar(i / 10 + '0');
 putchar(i % 10 + '0');
 putchar(' ');
 }
-} 
+}
+putchar('\n');
+return (0);
 }
