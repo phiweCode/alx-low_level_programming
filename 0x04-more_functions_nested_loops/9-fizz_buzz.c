@@ -2,10 +2,9 @@
 
 /**
  * main - this is a fizzbuzz 
- * Return: returns 0 upon completion
  */
 
-int main(void)
+void fizzBuzz(void)
 {
 
 int i;
@@ -50,5 +49,4 @@ _putchar(i % 10 + '0');
 _putchar(' ');
 }
 } 
-return (0);
 }
