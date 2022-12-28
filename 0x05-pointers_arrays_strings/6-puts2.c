@@ -2,7 +2,7 @@
 #include "2-strlen.c"
 
 
-/*
+/**
  * puts2 - prints every other
  * char of string
  * @atr: string to be printed
