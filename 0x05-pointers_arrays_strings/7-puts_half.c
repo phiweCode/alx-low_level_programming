@@ -16,7 +16,7 @@ int strlen = _strlen(str);
 if (strlen % 2 == 0)
 {
 
-for (i = _strlen(str) - 1; i >= strlen/2; i--)
+for (i = strlen / 2; i >= _strlen(str) - 1; i--)
 {
 _putchar(str[i]);
 }
@@ -25,7 +25,7 @@ _putchar('\n');
 else
 {
 
-for (i = _strlen(str) - 1; i >= (strlen - 1) / 2; i--)
+for (i = (strlen - 1) / 2; i >= (strlen - 1) / 2; i--)
 {
 _putchar(str[i]);
 }
