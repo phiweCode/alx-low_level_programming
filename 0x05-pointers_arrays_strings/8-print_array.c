@@ -20,7 +20,7 @@ printf("%d", a[i]);
 
 if (i + 1 != n)
 {
-printf(' ,');
+printf(" ,");
 }
 }
 putchar('\n');
