@@ -16,19 +16,19 @@ int strlen = _strlen(str);
 if (strlen % 2 == 0)
 {
 
-for (i = strlen / 2; i >= _strlen(str) - 1; i--)
+for (i = strlen / 2; i < strlen; i++)
 {
-_putchar(str[i]);
+putchar(str[i]);
 }
-_putchar('\n');
+putchar('\n');
 }
 else
 {
 
-for (i = (strlen - 1) / 2; i >= (strlen - 1) / 2; i--)
+for (i = (strlen - 1) / 2; i < strlen ; i++)
 {
-_putchar(str[i]);
+putchar(str[i]);
 }
-_putchar('\n');
+putchar('\n');
 }
 }
