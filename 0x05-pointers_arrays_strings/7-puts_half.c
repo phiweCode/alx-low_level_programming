@@ -18,17 +18,17 @@ if (strlen % 2 == 0)
 
 for (i = strlen / 2; i < strlen; i++)
 {
-putchar(str[i]);
+_putchar(str[i]);
 }
-putchar('\n');
+_putchar('\n');
 }
 else
 {
 
 for (i = (strlen - 1) / 2; i < strlen ; i++)
 {
-putchar(str[i]);
+_putchar(str[i]);
 }
-putchar('\n');
+_putchar('\n');
 }
 }
