@@ -1,0 +1,46 @@
+#include "main.h"
+#include "2-strlen.c" 
+#include <stdio.h>
+
+/**
+ * puts_half - prints last half 
+ * of string characters 
+ * @str: string to be printed
+ */
+
+void puts_half(char *str)
+{
+  int i;
+  int strlen = _strlen(str);
+  printf("the length of the string is %d\n",strlen);
+  
+  if ( strlen % 2 == 0)
+    {
+      printf("The string has an even length\n");
+      
+  for (i = _strlen(str) - 1; i >= strlen/2; i--)
+    {
+      putchar(str[i]);
+    }
+  putchar('\n');
+    }
+  else
+    {
+      printf("The string has an odd length\n");
+      
+      for (i = _strlen(str) - 1; i >= (strlen - 1) / 2; i--)
+	{
+	  putchar(str[i]);
+        }
+      putchar('\n');
+	
+    }
+}
+
+int main(void)
+{
+  char str[50] = "some string";
+  char str1[50] = "123456";
+  puts_half(str);
+  puts_half(str1);
+}
