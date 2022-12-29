@@ -26,7 +26,7 @@ _putchar('\n');
 else
 {
 
-for (i = (strlen - 2) / 2; i < strlen; i++)
+for (i = (strlen) / 2; i < strlen; i++)
 {
 _putchar(str[i]);
 }
