@@ -14,11 +14,11 @@ char *string_toupper(char *s)
 {
 int ind;
 
-for (ind = 0; ind != '\0'; ind++)
+for (ind = 0; ind < strlen(s); ind++)
 { 
-  
-s[ind] = toupper(s[ind]);
 
+s[ind] = toupper(s[ind]);
+ 
 }
  
 return (s);
