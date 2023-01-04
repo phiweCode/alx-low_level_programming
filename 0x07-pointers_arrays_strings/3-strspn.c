@@ -3,13 +3,13 @@
 #include <stdio.h>
 
 /**
- * _strspn - prints the longest 
- * prefix in a string 
- * @s: is the source string 
- * @accept: is the set of character 
- * to be matched 
- * Return: returns the length of 
- * the longest prefix  
+ * _strspn - prints the longest
+ * prefix in a string
+ * @s: is the source string
+ * @accept: is the set of character
+ * to be matched
+ * Return: returns the length of
+ * the longest prefix
  */
 
 unsigned int _strspn(char *s, char *accept)
@@ -23,17 +23,17 @@ count = 0;
 
 for (i = 0; i < strlen(s); i++)
 {
-          
+
 if (count == i)
 {
-          
+
 for (j = 0; j < strlen(accept); j++)
 {
-    
+
 if (s[i] == accept[j])
 {
 count ++;
-break; 
+break;
 }
 }
 }
@@ -43,11 +43,11 @@ if (count >= strlen(accept) )
 {
 return (count);
 }
-else 
+else
 {
 return (0);
-break; 
-}    
+break;
+}
 }
 }
 return (0);
