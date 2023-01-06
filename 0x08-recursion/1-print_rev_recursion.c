@@ -10,12 +10,9 @@
 void _print_rev_recursion(char *s)
 {
 size_t len = strlen(s);
-if (len > 1) {
-char c = s[0];
-s[0] = s[len - 1];
-s[len - 1] = '\0';
-_print_rev_recursion(s + 1);
-s[len - 1] = c;
+if (len > 0) {
+_putchar(s[len - 1]);
+_print_rev_recursion(s);
 }
 }
 
