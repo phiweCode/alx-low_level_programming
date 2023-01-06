@@ -1,5 +1,6 @@
 #include "main.h"
 #include <string.h>
+#include <stdio.h>
 
 /**
 * _print_rev_recursion - prints a
@@ -8,11 +9,13 @@
 */
 
 void _print_rev_recursion(char *s)
-{
-size_t len = strlen(s);
-if (len > 0) {
-_putchar(s[len - 1]);
-_print_rev_recursion(s);
+{ 
+  
+if (*s)
+{ 
+_print_rev_recursion(s + 1); 
+_putchar(*s);
 }
 }
+
 
