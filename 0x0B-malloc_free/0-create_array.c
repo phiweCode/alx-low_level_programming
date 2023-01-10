@@ -21,6 +21,7 @@ ptr = malloc(sizeof(char) * size);
 
 if (size == 0)
 {
+free(ptr);
 return (NULL);
 }
 while (i < size)
@@ -28,5 +29,6 @@ while (i < size)
 ptr[i] = c;
 i++;
 }
+free(ptr);
 return (ptr);
 }
