@@ -22,7 +22,7 @@ string = malloc(sizeof(char) * len);
 
 if (string != NULL)
 {
-for (i = 0; i < strlen(str); i++)
+for (i = 0; i <= strlen(str); i++)
 {
 string[i] = str[i];
 }
