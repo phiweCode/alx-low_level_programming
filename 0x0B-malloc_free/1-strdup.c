@@ -28,9 +28,9 @@ string[i] = str[i];
 }
 return (string);
 }
-else
+else 
 {
-return (NULL);
+return (string);
 }
 
 }
