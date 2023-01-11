@@ -20,7 +20,7 @@ unsigned int len;
 len = strlen(str);
 string = malloc(sizeof(char) * len);
 
-if (len != 0)
+if (string != NULL)
 {
 for (i = 0; i < strlen(str); i++)
 {
